@@ -1,4 +1,4 @@
-def timed(String stepName, Closure body) {
+def call(String stepName, Closure body) {
     return {
         def start = System.currentTimeMillis()
         body()
